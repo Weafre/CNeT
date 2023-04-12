@@ -1,0 +1,15 @@
+venv/*
+Model/*
+Training/__pycache__/*
+DataPreprocessing/__pycache__/*
+utils/__pycache__/*
+/__pycache__/*
+Output/*Model/SPVoxelDNN/full_data_no_da/log/train_10_8/events.out.tfevents.1632828731.lms40-50.1454249.0
+**/*.pyc
+**/*.xml
+Output/*
+**/*.xml
+.idea/*
+*/__pycache__/*
+*/__pycache__/
+
