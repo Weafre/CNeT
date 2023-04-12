@@ -32,6 +32,6 @@ The training set and validation set is described in the paper, the preprocessing
 
     python3 -m Encoders.cnet_attribute_encoder -level 10 -ply ply_path -output Output/   -color_voxeldnn_path checkpoint1 -color_voxeldnn_path checkpoint2 -color_voxeldnn_path checkpoint3  -signaling signal
 
-Checkpoints can be download from [here]()
+Checkpoints can be download from [here](https://faubox.rrze.uni-erlangen.de/getlink/fiWwcjc9A5mJwSNqfMhoBa/)
 
 
