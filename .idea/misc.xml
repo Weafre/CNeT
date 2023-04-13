@@ -12,6 +12,10 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/command.sh" />
         </OpenedFileInfo>
         <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
           <option name="caretOffset" value="760" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/Training/cnet_attribute_training.py" />
         </OpenedFileInfo>
@@ -20,8 +24,12 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/Encoders/cnet_attribute_encoder.py" />
         </OpenedFileInfo>
         <OpenedFileInfo>
+          <option name="caretOffset" value="3779" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/DataPreprocessing/ds_pc_octree_block.py" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
           <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/DataPreprocessing/ds_select_randomly_move.py" />
         </OpenedFileInfo>
       </list>
     </option>
