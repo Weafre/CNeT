@@ -24,6 +24,23 @@
 - torchac 0.9.3
 - packages in mink_environment.yml
 
+## Getting started
+- Install the dependencies using the conda environment.yml file
+```shell
+conda env create --name mink --file environment.yml
+```
+## Dataset
+- We use four datasets with color attributes: MPEG Owlii, MPEG 8i, MVUB, and MPEG CAT1 (except point clouds used for testing). All points clouds are partitioned into a set of points with maximum bounding box of 64. 
+- Example: the following command performs the partitioning for Owlii dataset: 
+```
+    python3 -m DataPreprocessing.ds_pc_octree_blocks datasets/Owlii datasets/Owlii_bl64 --vg_size 1024 --level 4 
+```
+The partitioned blocks are written into the datasets/Owlii_bl64 directory, doing the same for other datasets
+- Randomly split blocks to training and validating set: 
+``` 
+    python3 -m DataPreprocessing.ds_select_randomly_move datasets/ datasets/validation/ 0.3
+``` 
+
 ## Training
 
     python3 -m Training.cnet_attribute_training -trainset ../Datasets/CNeT_TrainingSet/33K/  -validset ../Datasets/CNeT_ValidSet/33K/ -flag test -outputmodel Model/  -lr 7 -useDA 8   --color -opt 1 -dim 2 -ngpus 1  -batch 2  -bacc 1
