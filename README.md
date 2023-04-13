@@ -40,7 +40,7 @@ The partitioned blocks are written into the datasets/Owlii_bl64 directory, doing
 ``` 
     python3 -m DataPreprocessing.ds_select_randomly_move datasets/ datasets/validation/ 0.3
 ``` 
-
+- An example training set is located in [ExampleTrainingSet](https://github.com/Weafre/MNeT/tree/main/ExampleTrainingSet)
 ## Training
 
     python3 -m Training.cnet_attribute_training -trainset ../Datasets/CNeT_TrainingSet/33K/  -validset ../Datasets/CNeT_ValidSet/33K/ -flag test -outputmodel Model/  -lr 7 -useDA 8   --color -opt 1 -dim 2 -ngpus 1  -batch 2  -bacc 1
@@ -49,6 +49,6 @@ The argument description can be found in the Training/cnet_attribute_training.py
 
     python3 -m Encoders.cnet_attribute_encoder -level 10 -ply ply_path -output Output/   -color_voxeldnn_path checkpoint1 -color_voxeldnn_path checkpoint2 -color_voxeldnn_path checkpoint3  -signaling signal
 
-Checkpoints can be download from [here](https://faubox.rrze.uni-erlangen.de/getlink/fiWwcjc9A5mJwSNqfMhoBa/)
+Checkpoints can be downloaded from [here](https://faubox.rrze.uni-erlangen.de/getlink/fiWwcjc9A5mJwSNqfMhoBa/)
 
 
