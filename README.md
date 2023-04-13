@@ -44,7 +44,7 @@ The partitioned blocks are written into the datasets/Owlii_bl64 directory, doing
 ## Training
 
     python3 -m Training.cnet_attribute_training -trainset ../Datasets/CNeT_TrainingSet/33K/  -validset ../Datasets/CNeT_ValidSet/33K/ -flag test -outputmodel Model/  -lr 7 -useDA 8   --color -opt 1 -dim 2 -ngpus 1  -batch 2  -bacc 1
-The training set and validation set is described in the paper, the preprocessing steps are the same as in [VoxelDNN](https://github.com/Weafre/VoxelDNN_v2)
+The argument description can be found in the Training/cnet_attribute_training.py
 ## Encoding
 
     python3 -m Encoders.cnet_attribute_encoder -level 10 -ply ply_path -output Output/   -color_voxeldnn_path checkpoint1 -color_voxeldnn_path checkpoint2 -color_voxeldnn_path checkpoint3  -signaling signal
