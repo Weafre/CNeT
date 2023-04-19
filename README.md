@@ -7,7 +7,7 @@
 
 * **Accepted to**: [[IEEE Transactions on Circuits and Systems for Video Technology]]([https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76))
 
-* **Links**: [[Arxiv]](https://arxiv.org/pdf/2204.05043),  [[IEEE Xplore]](https://ieeexplore.ieee.org/abstract/document/10024999))
+* **Links**: [[Arxiv]](https://arxiv.org/pdf/2303.06519.pdf),  [[IEEE Xplore]](https://ieeexplore.ieee.org/abstract/document/10024999))
 
 
 
